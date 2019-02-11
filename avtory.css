@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+.shapka{
+	overflow:hidden;
+	background-color:salmon;
+	margin:0 auto;
+	width:100%;
+	height:60px;
+	padding:12px 0 20px 0;
+	}
+
+	#logo{
+font-size:30px;
+float:left;
+display:inline-block;
+line-height:1;
+color:white;
+margin:10px 0px 15px;
+font-family:"AR CENA Regular",sans-serif,white;
+}
+
+	#logo a{
+		text-decoration: none;
+	}
+
+
+	/*menu*/
+.secondary-navigation{
+	display:block;
+	float:left;
+	width:100%;
+	max-width:100%;
+	background:#424242;
+
+	}
+
+.search-holder{
+	float:right;
+}
+
+
+.secondary-navigation a{
+	font-size:14px;
+	color:#fff;
+	font-weight:600;
+	text-align:left;
+	text-decoration:none;
+	padding:14px 20px;
+	-webkit-transition:background-color 0.2s linear;
+	-moz-transition:background-color 0.2s linear;
+	transition:background-color 0.2s linear;
+	font-family:Georgia,Serif;
+	}
+
+
+.secondary-navigation a:hover
+{color:salmon;}
+
+ #navigation{
+	 margin:0 auto;
+	 font-size:13px;
+	 width:100%;
+	 max-width:100%;
+	 }
+#navigation ul{
+	margin:0 auto
+	}
+#navigation ul li{
+	float:left;
+	position:relative;
+	list-style: none;
+}
+ #navigation ul li a, #navigation ul li a:link, #navigation ul li a:visited{
+	 overflow:hidden;
+	 display:block;
+	 }
+
+ #searchform fieldset{float:right;}
+#searchform #s{padding:6px 0;
+background:white;
+border:1px solid #DDDDDD;
+-webkit-border-top-left-radius:2px;
+-webkit-border-bottom-left-radius:2px;
+-moz-border-radius-topleft:2px;
+-moz-border-radius-bottomleft:2px;
+border-top-left-radius:2px;
+border-bottom-left-radius:2px;
+border-right:0;text-indent:10px;
+}
+ #searchform{
+	 clear:none;
+	 width:auto;
+	 margin:10px px 0 0;
+	 float:right;
+	 list-style:none;}
+
+
+
+/*css для Авторы*/
+
+.article {
+    width: 66%;
+    float: left;
+    margin-bottom: 20px;
+    padding: 0 0%;
+    -webkit-box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.35);
+    -moz-box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.35);
+    box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.35);
+	background-color: #EBEFF2;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.column a{
+	color: maroon;
+}
+
+
+/*footer*/
+.footer{
+	width:98%;
+	float: left;
+	padding: 1%;
+	background-color: silver;
+	border-top: 1px solid black;
+	margin-top: 10px;
+	height: 150px;
+}
