@@ -1,0 +1,78 @@
+	{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Онлайн прокат книг </title>
+ <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+<header>
+
+	<div class="container">
+	<div id="header">
+	<div class="shapka">
+
+	<div id="logo">
+
+	<a itemprop="name" href="/">Online Book Rental</a>
+	</div><!--END LOGO -->
+
+		 <div class="social-profile-icons spi_custom">
+    <ul class="">
+							</ul>
+</div>
+
+	<form method="get" id="searchform" class="search-form" action="/" _lpchecked="1">
+	<fieldset>
+	<li><a href="reg.php"><div class="image-holder"><alt="Регистрация"></div><span>Регистрация</span></a></li>
+	</fieldset>
+	</form>
+
+
+	<form method="get" id="searchform" class="search-form" action="/" _lpchecked="1">
+	<fieldset>
+	<li><a href="aut.php"><div class="image-holder"><alt="Вход"></div><span>Вход</span></a></li>
+	</fieldset>
+	</form>
+	</div>
+
+
+	 <div class="secondary-navigation">
+                <nav id="navigation" >
+                    <div class="menuBurger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+
+ <ul id="menu-menu" class="menu"><li id="menu-item-730" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-730"><a href="/">Главная</a></li>
+<li id="menu-item-1335" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1335"><a href="/zhanry/">Жанры</a></li>
+<li id="menu-item-1856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1856"><a href="/avtory/">Авторы</a></li>
+<li id="menu-item-1857" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1857"><a href="/">Все книги</a></li>
+<li id="menu-item-732" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-732"><a href="/onas/">О нас</a></li>
+<div class="search-holder">
+<form method="get" action="/poisk">
+<input type="text" name="text" placeholder="Введите запрос">
+<button type="submit"><alt="Искать книгу"></button>
+</form>
+ </div>
+</ul>
+                </nav>
+            </div>
+        </div><!--#header-->
+    </div><!--.container-->
+
+
+
+	 <footer>
+  <center>
+  <div class="footer">
+  Все права защищены &copy; 2019
+  </footer>
+
+  </body>
+
+</html>
